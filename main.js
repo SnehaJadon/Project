@@ -95,7 +95,7 @@ const Quiz = {
   },
   close() {
       this.quiz_contianer.style.display = "none";
-    for(let o of opsDom){
+    for(let o of this.opsDom){
       o.style.color = "";
     }
       // this.ansDom.style.display = "none";
