@@ -95,6 +95,9 @@ const Quiz = {
   },
   close() {
       this.quiz_contianer.style.display = "none";
+    for(let o of opsDom){
+      o.style.color = "";
+    }
       // this.ansDom.style.display = "none";
   },
   init() {
